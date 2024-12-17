@@ -58,7 +58,7 @@
   color: #86928b;
 }
 .footercontainer {
-  background-color: rgba(225, 237, 230, 1);
+  /*background-color: rgba(225, 237, 230, 1);*/
   padding: 1vh;
   width: 100%;
 }
