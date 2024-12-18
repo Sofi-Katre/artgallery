@@ -18,7 +18,9 @@
           предопределяет высокую востребованность направлений прогрессивного
           развития.
         </div>
-        <button class="btnpr3 text-xl">Ознакомиться</button>
+        <button class="btnpr3 text-xl">
+          <RouterLink to="/ThePart2">Ознакомиться</RouterLink>
+        </button>
       </div>
     </div>
   </div>
@@ -29,13 +31,15 @@
     url("../../media/examples/star.png");
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 .titlepr3 {
   margin-bottom: 4vh;
 }
 .backpr3 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 60% 40%;
 }
 .subtitle1 {
   margin-bottom: 4vh;
@@ -62,5 +66,17 @@ button.btnpr3:hover {
   background-color: #e6ba41;
   border: #eed9b3 solid 1px;
   color: aliceblue;
+}
+/*МЕДИА ЗАПРОСЫ ДЛЯ АДАПТИВА САЙТА*/
+@media (width <= 1130px) {
+  .backpr3 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+  }
+  .btnpr3 {
+    font-size: 1.3rem;
+    margin-top: 4vh;
+    padding: 1.8vh 4vh;
+  }
 }
 </style>

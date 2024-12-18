@@ -15,7 +15,9 @@
         Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие
         произведения, доступные цены.
       </div>
-      <button class="btnart text-xl">Продукция</button>
+      <button class="btnart text-xl">
+        <RouterLink to="/ThePart2">Продукция</RouterLink>
+      </button>
     </div>
   </div>
 </template>
@@ -30,7 +32,7 @@
 }
 .infotoppart1 {
   grid-column: 2;
-  margin: 15vh 0vh 15vh 2vh;
+  margin: 25% 0vh 25% 2vh;
 }
 .title {
   margin-bottom: 3vh;
@@ -53,5 +55,22 @@ button.btnart:hover {
 }
 .subtitle {
   color: #86928b;
+}
+/*МЕДИА ЗАПРОСЫ ДЛЯ АДАПТИВА САЙТА*/
+@media (width <= 1130px) {
+  .stoka1 {
+    font-size: 2.5rem;
+  }
+  .style2st2 {
+    font-size: 2.5rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .btnart {
+    font-size: 1.3rem;
+    margin-top: 4vh;
+    padding: 1.8vh 4vh;
+  }
 }
 </style>

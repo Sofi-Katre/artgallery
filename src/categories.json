@@ -1,0 +1,143 @@
+{
+  "France": {
+    "category": "Франция",
+    "infoitem": [
+      {
+        "titleCard": "Охота Амура",
+        "characteristics": "Холст, масло (50х80) ",
+        "autore": "Марсель Руссо",
+        "price": "14 500",
+        "picture": "imeges/maincontent/part2/France/fr1.jpg"
+      },
+      {
+        "titleCard": "Дама с собачкой",
+        "characteristics": "Акрил, бумага (50х80) ",
+        "autore": "Анри Селин",
+        "price": "16 500",
+        "picture": "imeges/maincontent/part2/France/fr2.jpg"
+      },
+      {
+        "titleCard": "Процедура",
+        "characteristics": "Цветная литография (40х60) ",
+        "autore": "Франсуа Дюпон",
+        "price": "20 000",
+        "picture": "imeges/maincontent/part2/France/fr3.jpg"
+      },
+      {
+        "titleCard": "Роза",
+        "characteristics": "Бумага, акрил (50х80) ",
+        "autore": "Луи Детуш",
+        "price": "12 000",
+        "picture": "imeges/maincontent/part2/France/fr4.jpg"
+      },
+      {
+        "titleCard": "Птичья трапеза",
+        "characteristics": "Цветная литография (40х60) ",
+        "autore": "Франсуа Дюпон",
+        "price": "22 500",
+        "picture": "imeges/maincontent/part2/France/fr5.jpg"
+      },
+      {
+        "titleCard": "Пейзаж с рыбой",
+        "characteristics": "Цветная литография (40х60) ",
+        "autore": "Пьер Моранж",
+        "price": "20 000",
+        "picture": "imeges/maincontent/part2/France/fr6.jpg"
+      }
+    ]
+  },
+  "Germany": {
+    "category": "Германия",
+    "infoitem": [
+      {
+        "titleCard": "Над городом",
+        "characteristics": "Цветная литография (40х60) ",
+        "autore": "Курт Вернер",
+        "price": "16 000",
+        "picture": "imeges/maincontent/part2/Germany/gr1.jpg"
+      },
+      {
+        "titleCard": "Птенцы",
+        "characteristics": "Холст, масло (50х80) ",
+        "autore": "Макс Рихтер",
+        "price": "14 500",
+        "picture": "imeges/maincontent/part2/Germany/gr2.jpg"
+      },
+      {
+        "titleCard": "Среди листьев",
+        "characteristics": "Цветная литография (40х60) ",
+        "autore": "Мартин Майер",
+        "price": "20 000",
+        "picture": "imeges/maincontent/part2/Germany/gr3.jpg"
+      },
+      {
+        "titleCard": "Яркая птица",
+        "characteristics": "Цветная литография (40х60) ",
+        "autore": "Герман Беккер",
+        "price": "13 000",
+        "picture": "imeges/maincontent/part2/Germany/gr4.jpg"
+      },
+      {
+        "titleCard": "Дятлы",
+        "characteristics": "Бумага, акрил (50х80) ",
+        "autore": "Вульф Бауэр",
+        "price": "20 000",
+        "picture": "imeges/maincontent/part2/Germany/gr5.jpg"
+      },
+      {
+        "titleCard": "Большие воды",
+        "characteristics": "Бумага, акрил (50х80) ",
+        "autore": "Вальтер Хартманн",
+        "price": "23 000",
+        "picture": "imeges/maincontent/part2/Germany/gr6.jpg"
+      }
+    ]
+  },
+  "England": {
+    "category": "Англия",
+    "infoitem": [
+      {
+        "titleCard": "Дикий зверь",
+        "characteristics": "Акварель, бумага (50х80) ",
+        "autore": "Пол Смит",
+        "price": "19 500",
+        "picture": "imeges/maincontent/part2/England/en1.jpg"
+      },
+      {
+        "titleCard": "Скалистый берег",
+        "characteristics": "Цветная литография (40х60) ",
+        "autore": "Джон Уайт",
+        "price": "17 500",
+        "picture": "imeges/maincontent/part2/England/en2.jpg"
+      },
+      {
+        "titleCard": "Река и горы",
+        "characteristics": "Акварель, бумага (50х80) ",
+        "autore": "Джим Уотсон",
+        "price": "20 500",
+        "picture": "imeges/maincontent/part2/England/en3.jpg"
+      },
+      {
+        "titleCard": "Белый попугай",
+        "characteristics": "Цветная литография (40х60) ",
+        "autore": "Юджин Зиллион",
+        "price": "15 500",
+        "picture": "imeges/maincontent/part2/England/en4.jpg"
+      },
+      {
+        "titleCard": "Ночная рыба",
+        "characteristics": "Бумага, акрил (50х80) ",
+        "autore": "Эрик Гиллман",
+        "price": "12 500",
+        "picture": "imeges/maincontent/part2/England/en5.jpg"
+      },
+      {
+        "titleCard": "Рыжий кот",
+        "characteristics": "Цветная литография (40х60) ",
+        "autore": "Альфред Барр",
+        "price": "20 100",
+        "picture": "imeges/maincontent/part2/England/en6.jpg"
+      }
+    ]
+  }
+}

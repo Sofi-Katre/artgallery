@@ -1,6 +1,6 @@
 <script>
+import { mapGetters } from "vuex";
 import TheCard from "./TheCard.vue";
-
 export default {
   components: {
     TheCard,
@@ -19,13 +19,18 @@ export default {
       </div>
     </div>
     <div class="cardlist grid gap-12">
-      <TheCard />
+      <TheCard
+        :infoitem="item"
+        v-for="(item, key) in getCategory.slice"
+        :key="key"
+      />
     </div>
   </div>
 </template>
+
 <style scoped>
 .containerPart2 {
-  margin: 0vh 15vh 4vh 15vh;
+  margin: 2vh 15vh 4vh 15vh;
   padding: 1vh;
 }
 .btnpr2 {
@@ -49,5 +54,11 @@ button.btnpr2style2:hover {
 }
 .cardlist {
   grid-template-columns: 1fr 1fr 1fr;
+}
+/*МЕДИА ЗАПРОСЫ ДЛЯ АДАПТИВА САЙТА*/
+@media (width <= 1130px) {
+  .cardlist {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 </style>

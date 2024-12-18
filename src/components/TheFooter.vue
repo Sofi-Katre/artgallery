@@ -3,7 +3,7 @@
     <div class="footer grid gap-2">
       <div class="logo flex items-center gap-1 text-xl">
         <img src="../imeges/header/Star 1.png" alt="" />
-        <div class="namelogo">Ink. House</div>
+        <div class="namelogo"><RouterLink to="/">Ink. House</RouterLink></div>
       </div>
       <div class="phonenumber">
         <div class="text-xl">+7 (999) 543-54-54</div>
@@ -12,24 +12,44 @@
       <div class="navigation grid gap-3">
         <div class="navcol1">
           <ul>
-            <li class="text-xl">Репродукции</li>
-            <li class="txtstyle text-lg">Франция</li>
-            <li class="txtstyle text-lg">Германия</li>
-            <li class="txtstyle text-lg">Англия</li>
+            <li class="text-xl">
+              <RouterLink to="/ThePart2">Репродукции</RouterLink>
+            </li>
+            <li class="txtstyle text-lg">
+              <RouterLink to="/ThePart2">Франция</RouterLink>
+            </li>
+            <li class="txtstyle text-lg">
+              <RouterLink to="/ThePart2">Германия</RouterLink>
+            </li>
+            <li class="txtstyle text-lg">
+              <RouterLink to="/ThePart2">Англия</RouterLink>
+            </li>
           </ul>
         </div>
         <div class="navcol2">
           <ul>
-            <li class="text-xl">Новинки</li>
-            <li class="txtstyle text-lg">2021</li>
-            <li class="txtstyle text-lg">2020</li>
+            <li class="text-xl">
+              <RouterLink to="/ThePart2">Новинки</RouterLink>
+            </li>
+            <li class="txtstyle text-lg">
+              <RouterLink to="/ThePart2">2021</RouterLink>
+            </li>
+            <li class="txtstyle text-lg">
+              <RouterLink to="/ThePart2">2020</RouterLink>
+            </li>
           </ul>
         </div>
         <div class="navcol3">
           <ul>
-            <li class="text-xl">О нас</li>
-            <li class="txtstyle text-lg">Художники</li>
-            <li class="txtstyle text-lg">Менеджеры</li>
+            <li class="text-xl">
+              <RouterLink to="/ThePart4">О нас</RouterLink>
+            </li>
+            <li class="txtstyle text-lg">
+              <RouterLink to="/ThePart4">Художники</RouterLink>
+            </li>
+            <li class="txtstyle text-lg">
+              <RouterLink to="/ThePart4">Менеджеры</RouterLink>
+            </li>
           </ul>
         </div>
       </div>
@@ -95,5 +115,31 @@
 .backinfo {
   grid-column: 3;
   grid-row: 1 / span 2;
+}
+/*МЕДИА ЗАПРОСЫ ДЛЯ АДАПТИВА САЙТА*/
+@media (width <= 1030px) {
+  .footercontainer {
+    background-color: rgba(225, 237, 230, 1);
+  }
+  .footer {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 2vh 15vh 2vh 15vh;
+  }
+  .phonenumber {
+    display: flex;
+    justify-items: end;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .navigation {
+    grid-template-columns: auto auto auto;
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .backinfo {
+    grid-column: 2;
+    grid-row: 2;
+  }
 }
 </style>
