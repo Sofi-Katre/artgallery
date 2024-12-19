@@ -8,7 +8,7 @@ export default {
 <template>
   <div class="containerCard flex flex-col gap-1">
     <div class="photocard flex items-center justify-center">
-      {{ infoitem.picture }}
+      <img :src="infoitem.picture" alt="" />
     </div>
     <div class="autore text-lg">{{ infoitem.autore }}</div>
     <div class="titleCard text-3xl">{{ infoitem.titleCard }}</div>

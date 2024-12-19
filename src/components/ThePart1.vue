@@ -1,7 +1,7 @@
 <template>
   <div class="containerPart1">
     <div class="photodive">
-      <img src="../imeges/maincontent/part1/Layer 0 1.png" alt="" />
+      <img src="/public/imeges/maincontent/part1/Layer 0 1.png" alt="" />
     </div>
     <div class="infotoppart1">
       <div class="title text-6xl font-medium">

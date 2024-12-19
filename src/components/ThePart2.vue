@@ -1,9 +1,31 @@
 <script>
-import { mapGetters } from "vuex";
 import TheCard from "./TheCard.vue";
 export default {
   components: {
     TheCard,
+  },
+  mounted() {
+    fetch("categories.json")
+      .then((resp) => resp.json())
+      .then((json) => {
+        this.pictures = json.France.infoitem;
+        this.categories = json;
+      });
+  },
+  data() {
+    return {
+      pictures: null,
+      categories: null,
+    };
+  },
+  methods: {
+    country(namecategory) {
+      fetch("categories.json")
+        .then((resp) => resp.json())
+        .then((json) => {
+          this.pictures = json[namecategory].infoitem;
+        });
+    },
   },
 };
 </script>
@@ -12,18 +34,18 @@ export default {
     <div class="partcontainer1 grid grid-cols-2 mb-8">
       <div class="title2 text-4xl">Репродукции</div>
       <div class="filter flex justify-end gap-6">
-        <button class="btnpr2 text-lg">Франция</button>
-        <!-- Когда кнопка активна*/ -->
-        <button class="btnpr2style2 text-lg">Германия</button>
-        <button class="btnpr2style2 text-lg">Англия</button>
+        <button
+          @click="country(key)"
+          v-for="(category, key) in categories"
+          :key="key"
+          class="btnpr2 text-lg"
+        >
+          {{ category.category }}
+        </button>
       </div>
     </div>
     <div class="cardlist grid gap-12">
-      <TheCard
-        :infoitem="item"
-        v-for="(item, key) in getCategory.slice"
-        :key="key"
-      />
+      <TheCard :infoitem="item" v-for="(item, key) in pictures" :key="key" />
     </div>
   </div>
 </template>

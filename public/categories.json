@@ -7,21 +7,21 @@
         "characteristics": "Холст, масло (50х80) ",
         "autore": "Марсель Руссо",
         "price": "14 500",
-        "picture": "imeges/maincontent/part2/France/fr1.jpg"
+        "picture": "/imeges/maincontent/part2/France/fr1.jpg"
       },
       {
         "titleCard": "Дама с собачкой",
         "characteristics": "Акрил, бумага (50х80) ",
         "autore": "Анри Селин",
         "price": "16 500",
-        "picture": "imeges/maincontent/part2/France/fr2.jpg"
+        "picture": "/imeges/maincontent/part2/France/fr2.jpg"
       },
       {
         "titleCard": "Процедура",
         "characteristics": "Цветная литография (40х60) ",
         "autore": "Франсуа Дюпон",
         "price": "20 000",
-        "picture": "imeges/maincontent/part2/France/fr3.jpg"
+        "picture": "/imeges/maincontent/part2/France/fr3.jpg"
       },
       {
         "titleCard": "Роза",

@@ -2,7 +2,7 @@
   <div class="headercontainer font-serif">
     <div class="header">
       <div class="logo flex items-center gap-1 text-xl">
-        <img src="../imeges/header/Star 1.png" alt="" />
+        <img src="/public/imeges/header/Star 1.png" alt="" />
         <div class="namelogo"><RouterLink to="/">Ink. House</RouterLink></div>
       </div>
       <div class="nav flex">
@@ -10,7 +10,7 @@
           <li><RouterLink to="/">Репродукции</RouterLink></li>
           <li><RouterLink to="/">Новинки</RouterLink></li>
           <li><RouterLink to="/">О нас</RouterLink></li>
-          <li><img src="../imeges/header/Frame 217.svg" alt="" /></li>
+          <li><img src="/public/imeges/header/Frame 217.svg" alt="" /></li>
         </ul>
       </div>
     </div>

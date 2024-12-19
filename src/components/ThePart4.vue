@@ -1,7 +1,7 @@
 <template>
   <div class="containerPart4">
     <div class="photopaint">
-      <img src="../imeges/maincontent/part4/Group 210.svg" alt="" />
+      <img src="/public/imeges/maincontent/part4/Group 210.svg" alt="" />
     </div>
     <div class="infotoppart4">
       <div class="title4 text-4xl font-medium">Наша команда</div>
@@ -13,13 +13,13 @@
       </div>
       <div class="phtoline gap-3">
         <div class="img1">
-          <img src="../imeges/maincontent/part4/Ellipse 30.svg" alt="" />
+          <img src="/public/imeges/maincontent/part4/Ellipse 30.svg" alt="" />
         </div>
         <div class="img2">
-          <img src="../imeges/maincontent/part4/Ellipse 31.svg" alt="" />
+          <img src="/public/imeges/maincontent/part4/Ellipse 31.svg" alt="" />
         </div>
         <div class="img3">
-          <img src="../imeges/maincontent/part4/Ellipse 32.svg" alt="" />
+          <img src="/public/imeges/maincontent/part4/Ellipse 32.svg" alt="" />
         </div>
       </div>
     </div>

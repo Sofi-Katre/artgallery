@@ -3,7 +3,7 @@
     <div class="backpr3">
       <div class="part3">
         <div class="titlepr3 flex items-center gap-6">
-          <img src="../imeges/maincontent/part3/Star 2.svg" alt="Star 2" />
+          <img src="/public/imeges/maincontent/part3/Star 2.svg" alt="Star 2" />
           <div class="namelogo text-5xl">
             Новая коллекция французских авторов
           </div>
@@ -27,7 +27,7 @@
 </template>
 <style scoped>
 .containerPart3 {
-  background-image: url("../imeges/maincontent/part3/214.png"),
+  background-image: url("/public/imeges/maincontent/part3/214.png"),
     url("../../media/examples/star.png");
   background-size: cover;
   background-repeat: no-repeat;
