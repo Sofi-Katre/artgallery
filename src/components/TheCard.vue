@@ -69,4 +69,32 @@ button.btnadd:hover {
     padding: 1.8vh 4vh;
   }
 }
+@media (width <= 650px) {
+  .btnadd {
+    font-size: 1.1rem;
+  }
+}
+@media (width <= 530px) {
+  .containerCard {
+    background-color: #e1ede6;
+    padding: 2vh 2vh 3vh 2vh;
+  }
+  .btnadd {
+    font-size: 1rem;
+  }
+  .autore {
+    font-size: 1rem;
+  }
+  .titleCard {
+    font-size: 1.18rem;
+    font-weight: 500;
+  }
+  .characteristics {
+    font-size: 0.9rem;
+  }
+  .price {
+    font-size: 1.18rem;
+    font-weight: 500;
+  }
+}
 </style>

@@ -79,4 +79,70 @@ button.btnpr3:hover {
     padding: 1.8vh 4vh;
   }
 }
+@media (width <= 900px) {
+  .backpr3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .part3 {
+    padding: 5vh 5vh 5vh 5vh;
+  }
+}
+@media (width <= 700px) {
+  .namelogo {
+    font-size: 1.9rem;
+  }
+  .subtitle1 {
+    font-size: 1.1rem;
+  }
+  .subtitle2 {
+    font-size: 1.1rem;
+  }
+  .btnpr3 {
+    font-size: 1.3rem;
+  }
+}
+@media (width <= 650px) {
+  .part3 {
+    padding: 2vh 3vh 2vh 3vh;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  .titlepr3 {
+    margin-bottom: 2vh;
+  }
+  .namelogo {
+    font-size: 1.5rem;
+  }
+  .subtitle1 {
+    font-size: 1rem;
+    margin-bottom: 1vh;
+  }
+  .subtitle2 {
+    font-size: 1rem;
+  }
+  .btnpr3 {
+    font-size: 1.1rem;
+    margin-top: 2vh;
+  }
+}
+@media (width <= 530px) {
+  .namelogo {
+    font-size: 1.2rem;
+  }
+  .subtitle1 {
+    font-size: 0.9rem;
+    margin-bottom: 1vh;
+  }
+  .subtitle2 {
+    font-size: 0.9rem;
+  }
+  .btnpr3 {
+    font-size: 1rem;
+    margin-top: 2vh;
+    padding: 1.5vh 3vh;
+  }
+}
 </style>

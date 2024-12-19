@@ -73,4 +73,56 @@ button.btnart:hover {
     padding: 1.8vh 4vh;
   }
 }
+@media (width <= 900px) {
+  .containerPart1 {
+    margin: 0vh 5vh 6vh 5vh;
+  }
+}
+@media (width <= 700px) {
+  .containerPart1 {
+    margin: 1vh 5vh 3vh 5vh;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+  }
+  .infotoppart1 {
+    margin: 7% 0vh 25% 2%;
+  }
+  .btnart {
+    font-size: 1.3rem;
+  }
+}
+@media (width <= 530px) {
+  .containerPart1 {
+    margin: 1vh 5vh 3vh 5vh;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+  }
+  .infotoppart1 {
+    margin: 5% 0vh 20% 2%;
+  }
+  .stoka1 {
+    font-size: 2rem;
+  }
+  .style2st2 {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 0.9rem;
+  }
+  .btnart {
+    font-size: 1.1rem;
+  }
+}
+@media (width <= 460px) {
+  .photodive {
+    visibility: hidden;
+  }
+  .containerPart1 {
+    margin: 1vh 2vh 3vh 2vh;
+    grid-template-columns: 1fr;
+  }
+  .infotoppart1 {
+    margin: 7% 0vh 10% 0vh;
+  }
+}
 </style>

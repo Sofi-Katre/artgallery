@@ -62,17 +62,12 @@ export default {
   padding: 0.5vh 2vh;
   color: #f4f6f5;
 }
-.btnpr2style2 {
+button.btnpr2:hover {
   background-color: #d4e8d9;
   border-radius: 20px;
   border: #d4e8d9 solid 1px;
   padding: 0.5vh 2vh;
   color: #2c2d35;
-}
-button.btnpr2style2:hover {
-  background-color: #f4f6f5;
-  color: #2c2d35;
-  border: #2c2d35 solid 1px;
 }
 .cardlist {
   grid-template-columns: 1fr 1fr 1fr;
@@ -81,6 +76,55 @@ button.btnpr2style2:hover {
 @media (width <= 1130px) {
   .cardlist {
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media (width <= 1130px) {
+  .containerPart2 {
+    margin: 2vh 5vh 4vh 5vh;
+  }
+}
+@media (width <= 700px) {
+  .title2 {
+    font-size: 1.8rem;
+  }
+  .btnpr2 {
+    font-size: 1rem;
+  }
+}
+@media (width <= 650px) {
+  .partcontainer1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 2vh;
+  }
+  .title2 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .btnpr2 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .filter {
+    justify-content: flex-start;
+  }
+  .cardlist {
+    gap: 2vh;
+  }
+}
+@media (width <= 460px) {
+  .containerPart2 {
+    margin: 2vh 2vh 4vh 2vh;
+  }
+  .cardlist {
+    grid-template-columns: 1fr;
+  }
+  .title2 {
+    font-size: 1.2rem;
+  }
+  .btnpr2 {
+    font-size: 0.7rem;
   }
 }
 </style>
